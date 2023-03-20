@@ -1,0 +1,967 @@
+The system is: Linux - 5.4.0-132-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/ecrc/gcc/10.2.0/ub18/bin/gcc 
+Build flags: -fPIC
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/3.21.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/ecrc/gcc/10.2.0/ub18/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/3.21.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2c89a/fast && /usr/bin/make  -f CMakeFiles/cmTC_2c89a.dir/build.make CMakeFiles/cmTC_2c89a.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC    -v -o CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/opt/ecrc/gcc/10.2.0/ub18/bin/gcc
+Target: x86_64-pc-linux-gnu
+Configured with: ./configure --disable-multilib --prefix=/opt/ecrc/gcc/10.2.0/ub18
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fPIC' '-v' '-o' 'CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o -version -fPIC -o /tmp/cctlSKiK.s
+GNU C17 (GCC) version 10.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.2.0, GMP version 6.1.0, MPFR version 4.1.0, MPC version 1.2.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring nonexistent directory "/opt/ecrc/cmake/3.21.2/ub18/include"
+ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-linux-gnu/10.2.0"
+ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-linux-gnu/10.2.0/include"
+ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-linux-gnu/10.2.0/include-fixed"
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/usr/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/ecrc/cuda/11.4/include
+ /opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0
+ /opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0/x86_64-linux-gnu
+ /opt/ecrc/mkl/2020.0.166/mkl/include
+ /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include
+ /usr/local/include
+ /opt/ecrc/gcc/10.2.0/ub18/include
+ /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (GCC) version 10.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.2.0, GMP version 6.1.0, MPFR version 4.1.0, MPC version 1.2.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3a87847ac716ab32da22178ab0a25c5b
+COLLECT_GCC_OPTIONS='-fPIC' '-v' '-o' 'CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o /tmp/cctlSKiK.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/opt/ecrc/cuda/11.4/lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib64/:/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64/:/opt/ecrc/mkl/2020.0.166/lib/intel64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIC' '-v' '-o' 'CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_2c89a
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c89a.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib -v -rdynamic CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o -o cmTC_2c89a 
+Using built-in specs.
+COLLECT_GCC=/opt/ecrc/gcc/10.2.0/ub18/bin/gcc
+COLLECT_LTO_WRAPPER=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ./configure --disable-multilib --prefix=/opt/ecrc/gcc/10.2.0/ub18
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COMPILER_PATH=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/opt/ecrc/cuda/11.4/lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib64/:/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64/:/opt/ecrc/mkl/2020.0.166/lib/intel64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-fPIC' '-L/home/gengz/gpu-v2/exageostat/installdir/lib' '-v' '-rdynamic' '-o' 'cmTC_2c89a' '-mtune=generic' '-march=x86-64'
+ /opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/collect2 -plugin /opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/liblto_plugin.so -plugin-opt=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6VpYzH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2c89a /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o -L/home/gengz/gpu-v2/exageostat/installdir/lib -L/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64 -L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0 -L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/opt/ecrc/cuda/11.4/lib64 -L/opt/ecrc/gcc/10.2.0/ub18/lib64 -L/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64 -L/opt/ecrc/mkl/2020.0.166/lib/intel64 -L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../.. CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-fPIC' '-L/home/gengz/gpu-v2/exageostat/installdir/lib' '-v' '-rdynamic' '-o' 'cmTC_2c89a' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/ecrc/cuda/11.4/include]
+    add: [/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0]
+    add: [/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0/x86_64-linux-gnu]
+    add: [/opt/ecrc/mkl/2020.0.166/mkl/include]
+    add: [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include]
+    add: [/usr/local/include]
+    add: [/opt/ecrc/gcc/10.2.0/ub18/include]
+    add: [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/opt/ecrc/cuda/11.4/include] ==> [/opt/ecrc/cuda/11.4/include]
+  collapse include dir [/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0] ==> [/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0]
+  collapse include dir [/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0/x86_64-linux-gnu] ==> [/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0/x86_64-linux-gnu]
+  collapse include dir [/opt/ecrc/mkl/2020.0.166/mkl/include] ==> [/opt/ecrc/mkl/2020.0.166/mkl/include]
+  collapse include dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include] ==> [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/opt/ecrc/gcc/10.2.0/ub18/include] ==> [/opt/ecrc/gcc/10.2.0/ub18/include]
+  collapse include dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed] ==> [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/opt/ecrc/cuda/11.4/include;/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0;/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0/x86_64-linux-gnu;/opt/ecrc/mkl/2020.0.166/mkl/include;/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include;/usr/local/include;/opt/ecrc/gcc/10.2.0/ub18/include;/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_2c89a/fast && /usr/bin/make  -f CMakeFiles/cmTC_2c89a.dir/build.make CMakeFiles/cmTC_2c89a.dir/build]
+  ignore line: [make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC    -v -o CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/ecrc/gcc/10.2.0/ub18/bin/gcc]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ./configure --disable-multilib --prefix=/opt/ecrc/gcc/10.2.0/ub18]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-v' '-o' 'CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o -version -fPIC -o /tmp/cctlSKiK.s]
+  ignore line: [GNU C17 (GCC) version 10.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.0  MPFR version 4.1.0  MPC version 1.2.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/opt/ecrc/cmake/3.21.2/ub18/include"]
+  ignore line: [ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-linux-gnu/10.2.0"]
+  ignore line: [ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-linux-gnu/10.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-linux-gnu/10.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/ecrc/cuda/11.4/include]
+  ignore line: [ /opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0]
+  ignore line: [ /opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0/x86_64-linux-gnu]
+  ignore line: [ /opt/ecrc/mkl/2020.0.166/mkl/include]
+  ignore line: [ /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /opt/ecrc/gcc/10.2.0/ub18/include]
+  ignore line: [ /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 10.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.0  MPFR version 4.1.0  MPC version 1.2.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3a87847ac716ab32da22178ab0a25c5b]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-v' '-o' 'CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o /tmp/cctlSKiK.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/opt/ecrc/cuda/11.4/lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib64/:/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64/:/opt/ecrc/mkl/2020.0.166/lib/intel64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-v' '-o' 'CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_2c89a]
+  ignore line: [/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c89a.dir/link.txt --verbose=1]
+  ignore line: [/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib -v -rdynamic CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o -o cmTC_2c89a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/ecrc/gcc/10.2.0/ub18/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ./configure --disable-multilib --prefix=/opt/ecrc/gcc/10.2.0/ub18]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/opt/ecrc/cuda/11.4/lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib64/:/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64/:/opt/ecrc/mkl/2020.0.166/lib/intel64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fPIC' '-L/home/gengz/gpu-v2/exageostat/installdir/lib' '-v' '-rdynamic' '-o' 'cmTC_2c89a' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/collect2 -plugin /opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/liblto_plugin.so -plugin-opt=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc6VpYzH.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_2c89a /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o -L/home/gengz/gpu-v2/exageostat/installdir/lib -L/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64 -L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0 -L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/opt/ecrc/cuda/11.4/lib64 -L/opt/ecrc/gcc/10.2.0/ub18/lib64 -L/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64 -L/opt/ecrc/mkl/2020.0.166/lib/intel64 -L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../.. CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc6VpYzH.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2c89a] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> obj [/usr/lib/x86_64-linux-gnu/crt1.o]
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/x86_64-linux-gnu/crti.o]
+    arg [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o] ==> obj [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o]
+    arg [-L/home/gengz/gpu-v2/exageostat/installdir/lib] ==> dir [/home/gengz/gpu-v2/exageostat/installdir/lib]
+    arg [-L/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64] ==> dir [/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64]
+    arg [-L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0] ==> dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0]
+    arg [-L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64] ==> dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/opt/ecrc/cuda/11.4/lib64] ==> dir [/opt/ecrc/cuda/11.4/lib64]
+    arg [-L/opt/ecrc/gcc/10.2.0/ub18/lib64] ==> dir [/opt/ecrc/gcc/10.2.0/ub18/lib64]
+    arg [-L/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64] ==> dir [/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64]
+    arg [-L/opt/ecrc/mkl/2020.0.166/lib/intel64] ==> dir [/opt/ecrc/mkl/2020.0.166/lib/intel64]
+    arg [-L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../..] ==> dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../..]
+    arg [CMakeFiles/cmTC_2c89a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o] ==> obj [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o]
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/home/gengz/gpu-v2/exageostat/installdir/lib] ==> [/home/gengz/gpu-v2/exageostat/installdir/lib]
+  collapse library dir [/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64] ==> [/opt/ecrc/gcc/10.2.0/ub18/lib64]
+  collapse library dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0] ==> [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0]
+  collapse library dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64] ==> [/opt/ecrc/gcc/10.2.0/ub18/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/opt/ecrc/cuda/11.4/lib64] ==> [/opt/ecrc/cuda/11.4/lib64]
+  collapse library dir [/opt/ecrc/gcc/10.2.0/ub18/lib64] ==> [/opt/ecrc/gcc/10.2.0/ub18/lib64]
+  collapse library dir [/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64] ==> [/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64]
+  collapse library dir [/opt/ecrc/mkl/2020.0.166/lib/intel64] ==> [/opt/ecrc/mkl/2020.0.166/lib/intel64]
+  collapse library dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../..] ==> [/opt/ecrc/gcc/10.2.0/ub18/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/crt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o;/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/home/gengz/gpu-v2/exageostat/installdir/lib;/opt/ecrc/gcc/10.2.0/ub18/lib64;/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/opt/ecrc/cuda/11.4/lib64;/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64;/opt/ecrc/mkl/2020.0.166/lib/intel64;/opt/ecrc/gcc/10.2.0/ub18/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8f9b2/fast && /usr/bin/make  -f CMakeFiles/cmTC_8f9b2.dir/build.make CMakeFiles/cmTC_8f9b2.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/g++   -v -o CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/opt/ecrc/gcc/10.2.0/ub18/bin/g++
+Target: x86_64-pc-linux-gnu
+Configured with: ./configure --disable-multilib --prefix=/opt/ecrc/gcc/10.2.0/ub18
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccg2jegN.s
+GNU C++14 (GCC) version 10.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.2.0, GMP version 6.1.0, MPFR version 4.1.0, MPC version 1.2.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../x86_64-pc-linux-gnu/include"
+ignoring nonexistent directory "/opt/ecrc/cmake/3.21.2/ub18/include"
+ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-linux-gnu/10.2.0"
+ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-linux-gnu/10.2.0/include"
+ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-linux-gnu/10.2.0/include-fixed"
+ignoring duplicate directory "/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0/x86_64-linux-gnu"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/usr/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/ecrc/cuda/11.4/include
+ /opt/ecrc/mkl/2020.0.166/mkl/include
+ /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0
+ /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu
+ /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward
+ /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include
+ /usr/local/include
+ /opt/ecrc/gcc/10.2.0/ub18/include
+ /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 10.2.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 10.2.0, GMP version 6.1.0, MPFR version 4.1.0, MPC version 1.2.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 91d0099741b7a5a4f99fb45f3859a172
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccg2jegN.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/opt/ecrc/cuda/11.4/lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib64/:/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64/:/opt/ecrc/mkl/2020.0.166/lib/intel64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_8f9b2
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f9b2.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/g++ -L/home/gengz/gpu-v2/exageostat/installdir/lib -v -rdynamic CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8f9b2 
+Using built-in specs.
+COLLECT_GCC=/opt/ecrc/gcc/10.2.0/ub18/bin/g++
+COLLECT_LTO_WRAPPER=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ./configure --disable-multilib --prefix=/opt/ecrc/gcc/10.2.0/ub18
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 10.2.0 (GCC) 
+COMPILER_PATH=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/opt/ecrc/cuda/11.4/lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib64/:/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64/:/opt/ecrc/mkl/2020.0.166/lib/intel64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-L/home/gengz/gpu-v2/exageostat/installdir/lib' '-v' '-rdynamic' '-o' 'cmTC_8f9b2' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/collect2 -plugin /opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/liblto_plugin.so -plugin-opt=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccreAlVV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8f9b2 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o -L/home/gengz/gpu-v2/exageostat/installdir/lib -L/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64 -L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0 -L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/opt/ecrc/cuda/11.4/lib64 -L/opt/ecrc/gcc/10.2.0/ub18/lib64 -L/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64 -L/opt/ecrc/mkl/2020.0.166/lib/intel64 -L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../.. CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-L/home/gengz/gpu-v2/exageostat/installdir/lib' '-v' '-rdynamic' '-o' 'cmTC_8f9b2' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/ecrc/cuda/11.4/include]
+    add: [/opt/ecrc/mkl/2020.0.166/mkl/include]
+    add: [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0]
+    add: [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu]
+    add: [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward]
+    add: [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include]
+    add: [/usr/local/include]
+    add: [/opt/ecrc/gcc/10.2.0/ub18/include]
+    add: [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/opt/ecrc/cuda/11.4/include] ==> [/opt/ecrc/cuda/11.4/include]
+  collapse include dir [/opt/ecrc/mkl/2020.0.166/mkl/include] ==> [/opt/ecrc/mkl/2020.0.166/mkl/include]
+  collapse include dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0] ==> [/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0]
+  collapse include dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu] ==> [/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0/x86_64-pc-linux-gnu]
+  collapse include dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward] ==> [/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0/backward]
+  collapse include dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include] ==> [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/opt/ecrc/gcc/10.2.0/ub18/include] ==> [/opt/ecrc/gcc/10.2.0/ub18/include]
+  collapse include dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed] ==> [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/opt/ecrc/cuda/11.4/include;/opt/ecrc/mkl/2020.0.166/mkl/include;/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0;/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0/x86_64-pc-linux-gnu;/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0/backward;/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include;/usr/local/include;/opt/ecrc/gcc/10.2.0/ub18/include;/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_8f9b2/fast && /usr/bin/make  -f CMakeFiles/cmTC_8f9b2.dir/build.make CMakeFiles/cmTC_8f9b2.dir/build]
+  ignore line: [make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/ecrc/gcc/10.2.0/ub18/bin/g++   -v -o CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/ecrc/gcc/10.2.0/ub18/bin/g++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ./configure --disable-multilib --prefix=/opt/ecrc/gcc/10.2.0/ub18]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccg2jegN.s]
+  ignore line: [GNU C++14 (GCC) version 10.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.0  MPFR version 4.1.0  MPC version 1.2.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [ignoring nonexistent directory "/opt/ecrc/cmake/3.21.2/ub18/include"]
+  ignore line: [ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-linux-gnu/10.2.0"]
+  ignore line: [ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-linux-gnu/10.2.0/include"]
+  ignore line: [ignoring nonexistent directory "/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-linux-gnu/10.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/opt/ecrc/gcc/10.2.0/ub18/include/c++/10.2.0/x86_64-linux-gnu"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/usr/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/ecrc/cuda/11.4/include]
+  ignore line: [ /opt/ecrc/mkl/2020.0.166/mkl/include]
+  ignore line: [ /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0]
+  ignore line: [ /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/x86_64-pc-linux-gnu]
+  ignore line: [ /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../include/c++/10.2.0/backward]
+  ignore line: [ /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /opt/ecrc/gcc/10.2.0/ub18/include]
+  ignore line: [ /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 10.2.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.0  GMP version 6.1.0  MPFR version 4.1.0  MPC version 1.2.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 91d0099741b7a5a4f99fb45f3859a172]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccg2jegN.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/opt/ecrc/cuda/11.4/lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib64/:/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64/:/opt/ecrc/mkl/2020.0.166/lib/intel64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_8f9b2]
+  ignore line: [/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f9b2.dir/link.txt --verbose=1]
+  ignore line: [/opt/ecrc/gcc/10.2.0/ub18/bin/g++ -L/home/gengz/gpu-v2/exageostat/installdir/lib -v -rdynamic CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8f9b2 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/ecrc/gcc/10.2.0/ub18/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ./configure --disable-multilib --prefix=/opt/ecrc/gcc/10.2.0/ub18]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 10.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/opt/ecrc/cuda/11.4/lib64/:/opt/ecrc/gcc/10.2.0/ub18/lib64/:/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64/:/opt/ecrc/mkl/2020.0.166/lib/intel64/:/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/home/gengz/gpu-v2/exageostat/installdir/lib' '-v' '-rdynamic' '-o' 'cmTC_8f9b2' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/collect2 -plugin /opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/liblto_plugin.so -plugin-opt=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccreAlVV.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_8f9b2 /usr/lib/x86_64-linux-gnu/crt1.o /usr/lib/x86_64-linux-gnu/crti.o /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o -L/home/gengz/gpu-v2/exageostat/installdir/lib -L/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64 -L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0 -L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/opt/ecrc/cuda/11.4/lib64 -L/opt/ecrc/gcc/10.2.0/ub18/lib64 -L/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64 -L/opt/ecrc/mkl/2020.0.166/lib/intel64 -L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../.. CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o /usr/lib/x86_64-linux-gnu/crtn.o]
+    arg [/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/ecrc/gcc/10.2.0/ub18/libexec/gcc/x86_64-pc-linux-gnu/10.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccreAlVV.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_8f9b2] ==> ignore
+    arg [/usr/lib/x86_64-linux-gnu/crt1.o] ==> obj [/usr/lib/x86_64-linux-gnu/crt1.o]
+    arg [/usr/lib/x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/x86_64-linux-gnu/crti.o]
+    arg [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o] ==> obj [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o]
+    arg [-L/home/gengz/gpu-v2/exageostat/installdir/lib] ==> dir [/home/gengz/gpu-v2/exageostat/installdir/lib]
+    arg [-L/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64] ==> dir [/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64]
+    arg [-L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0] ==> dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0]
+    arg [-L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64] ==> dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/opt/ecrc/cuda/11.4/lib64] ==> dir [/opt/ecrc/cuda/11.4/lib64]
+    arg [-L/opt/ecrc/gcc/10.2.0/ub18/lib64] ==> dir [/opt/ecrc/gcc/10.2.0/ub18/lib64]
+    arg [-L/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64] ==> dir [/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64]
+    arg [-L/opt/ecrc/mkl/2020.0.166/lib/intel64] ==> dir [/opt/ecrc/mkl/2020.0.166/lib/intel64]
+    arg [-L/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../..] ==> dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../..]
+    arg [CMakeFiles/cmTC_8f9b2.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o] ==> obj [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o]
+    arg [/usr/lib/x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/home/gengz/gpu-v2/exageostat/installdir/lib] ==> [/home/gengz/gpu-v2/exageostat/installdir/lib]
+  collapse library dir [/opt/ecrc/gcc/10.2.0/ub18/lib64/../lib64] ==> [/opt/ecrc/gcc/10.2.0/ub18/lib64]
+  collapse library dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0] ==> [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0]
+  collapse library dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../../../lib64] ==> [/opt/ecrc/gcc/10.2.0/ub18/lib64]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/opt/ecrc/cuda/11.4/lib64] ==> [/opt/ecrc/cuda/11.4/lib64]
+  collapse library dir [/opt/ecrc/gcc/10.2.0/ub18/lib64] ==> [/opt/ecrc/gcc/10.2.0/ub18/lib64]
+  collapse library dir [/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64] ==> [/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64]
+  collapse library dir [/opt/ecrc/mkl/2020.0.166/lib/intel64] ==> [/opt/ecrc/mkl/2020.0.166/lib/intel64]
+  collapse library dir [/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/../../..] ==> [/opt/ecrc/gcc/10.2.0/ub18/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/crt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtbegin.o;/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0/crtend.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/home/gengz/gpu-v2/exageostat/installdir/lib;/opt/ecrc/gcc/10.2.0/ub18/lib64;/opt/ecrc/gcc/10.2.0/ub18/lib/gcc/x86_64-pc-linux-gnu/10.2.0;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/opt/ecrc/cuda/11.4/lib64;/opt/ecrc/mkl/2020.0.166/mkl/lib/intel64;/opt/ecrc/mkl/2020.0.166/lib/intel64;/opt/ecrc/gcc/10.2.0/ub18/lib]
+  implicit fwks: []
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2e1ef/fast && /usr/bin/make  -f CMakeFiles/cmTC_2e1ef.dir/build.make CMakeFiles/cmTC_2e1ef.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e1ef.dir/CheckIncludeFile.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_2e1ef.dir/CheckIncludeFile.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2e1ef
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e1ef.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_2e1ef.dir/CheckIncludeFile.c.o -o cmTC_2e1ef 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file getopt.h exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_46f2d/fast && /usr/bin/make  -f CMakeFiles/cmTC_46f2d.dir/build.make CMakeFiles/cmTC_46f2d.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46f2d.dir/CheckIncludeFile.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_46f2d.dir/CheckIncludeFile.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_46f2d
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46f2d.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_46f2d.dir/CheckIncludeFile.c.o -o cmTC_46f2d 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ac30d/fast && /usr/bin/make  -f CMakeFiles/cmTC_ac30d.dir/build.make CMakeFiles/cmTC_ac30d.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac30d.dir/CheckIncludeFile.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_ac30d.dir/CheckIncludeFile.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ac30d
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac30d.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_ac30d.dir/CheckIncludeFile.c.o -o cmTC_ac30d 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e9248/fast && /usr/bin/make  -f CMakeFiles/cmTC_e9248.dir/build.make CMakeFiles/cmTC_e9248.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e9248.dir/CheckIncludeFile.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_e9248.dir/CheckIncludeFile.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e9248
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9248.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_e9248.dir/CheckIncludeFile.c.o -o cmTC_e9248 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9fb20/fast && /usr/bin/make  -f CMakeFiles/cmTC_9fb20.dir/build.make CMakeFiles/cmTC_9fb20.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9fb20.dir/CheckIncludeFile.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_9fb20.dir/CheckIncludeFile.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9fb20
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fb20.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_9fb20.dir/CheckIncludeFile.c.o -o cmTC_9fb20 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2d12f/fast && /usr/bin/make  -f CMakeFiles/cmTC_2d12f.dir/build.make CMakeFiles/cmTC_2d12f.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d12f.dir/CheckIncludeFile.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_2d12f.dir/CheckIncludeFile.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2d12f
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d12f.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_2d12f.dir/CheckIncludeFile.c.o -o cmTC_2d12f 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_76929/fast && /usr/bin/make  -f CMakeFiles/cmTC_76929.dir/build.make CMakeFiles/cmTC_76929.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76929.dir/CheckIncludeFile.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_76929.dir/CheckIncludeFile.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_76929
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76929.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_76929.dir/CheckIncludeFile.c.o -o cmTC_76929 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_25c0c/fast && /usr/bin/make  -f CMakeFiles/cmTC_25c0c.dir/build.make CMakeFiles/cmTC_25c0c.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25c0c.dir/CheckIncludeFile.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_25c0c.dir/CheckIncludeFile.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_25c0c
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25c0c.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_25c0c.dir/CheckIncludeFile.c.o -o cmTC_25c0c 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b1eb2/fast && /usr/bin/make  -f CMakeFiles/cmTC_b1eb2.dir/build.make CMakeFiles/cmTC_b1eb2.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1eb2.dir/CheckIncludeFile.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_b1eb2.dir/CheckIncludeFile.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b1eb2
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1eb2.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_b1eb2.dir/CheckIncludeFile.c.o -o cmTC_b1eb2 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d980a/fast && /usr/bin/make  -f CMakeFiles/cmTC_d980a.dir/build.make CMakeFiles/cmTC_d980a.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d980a.dir/CheckIncludeFile.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_d980a.dir/CheckIncludeFile.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d980a
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d980a.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_d980a.dir/CheckIncludeFile.c.o -o cmTC_d980a 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7949f/fast && /usr/bin/make  -f CMakeFiles/cmTC_7949f.dir/build.make CMakeFiles/cmTC_7949f.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7949f.dir/CheckIncludeFile.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_7949f.dir/CheckIncludeFile.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7949f
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7949f.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_7949f.dir/CheckIncludeFile.c.o -o cmTC_7949f 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f2ccf/fast && /usr/bin/make  -f CMakeFiles/cmTC_f2ccf.dir/build.make CMakeFiles/cmTC_f2ccf.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2ccf.dir/CheckIncludeFile.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_f2ccf.dir/CheckIncludeFile.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f2ccf
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2ccf.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_f2ccf.dir/CheckIncludeFile.c.o -o cmTC_f2ccf 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0a042/fast && /usr/bin/make  -f CMakeFiles/cmTC_0a042.dir/build.make CMakeFiles/cmTC_0a042.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a042.dir/CheckIncludeFile.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_0a042.dir/CheckIncludeFile.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0a042
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a042.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_0a042.dir/CheckIncludeFile.c.o -o cmTC_0a042 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getpid exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_11fa8/fast && /usr/bin/make  -f CMakeFiles/cmTC_11fa8.dir/build.make CMakeFiles/cmTC_11fa8.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11fa8.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=getpid -o CMakeFiles/cmTC_11fa8.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_11fa8
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11fa8.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=getpid -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_11fa8.dir/CheckFunctionExists.c.o -o cmTC_11fa8 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function syscall exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_aefd9/fast && /usr/bin/make  -f CMakeFiles/cmTC_aefd9.dir/build.make CMakeFiles/cmTC_aefd9.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aefd9.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=syscall -o CMakeFiles/cmTC_aefd9.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aefd9
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aefd9.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=syscall -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_aefd9.dir/CheckFunctionExists.c.o -o cmTC_aefd9 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function isinf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4bd15/fast && /usr/bin/make  -f CMakeFiles/cmTC_4bd15.dir/build.make CMakeFiles/cmTC_4bd15.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4bd15.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=isinf -o CMakeFiles/cmTC_4bd15.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘isinf’; expected ‘int()’ [-Wbuiltin-declaration-mismatch]
+/opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c:1:1: note: ‘isinf’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_4bd15
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bd15.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=isinf -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_4bd15.dir/CheckFunctionExists.c.o -o cmTC_4bd15 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function isnan exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_693bd/fast && /usr/bin/make  -f CMakeFiles/cmTC_693bd.dir/build.make CMakeFiles/cmTC_693bd.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_693bd.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=isnan -o CMakeFiles/cmTC_693bd.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘isnan’; expected ‘int()’ [-Wbuiltin-declaration-mismatch]
+/opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c:1:1: note: ‘isnan’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_693bd
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_693bd.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=isnan -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_693bd.dir/CheckFunctionExists.c.o -o cmTC_693bd 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a796d/fast && /usr/bin/make  -f CMakeFiles/cmTC_a796d.dir/build.make CMakeFiles/cmTC_a796d.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a796d.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=gettimeofday -o CMakeFiles/cmTC_a796d.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a796d
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a796d.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=gettimeofday -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_a796d.dir/CheckFunctionExists.c.o -o cmTC_a796d 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function qsort_r exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2c515/fast && /usr/bin/make  -f CMakeFiles/cmTC_2c515.dir/build.make CMakeFiles/cmTC_2c515.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c515.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=qsort_r -o CMakeFiles/cmTC_2c515.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2c515
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c515.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=qsort_r -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_2c515.dir/CheckFunctionExists.c.o -o cmTC_2c515 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function time exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ee497/fast && /usr/bin/make  -f CMakeFiles/cmTC_ee497.dir/build.make CMakeFiles/cmTC_ee497.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee497.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=time -o CMakeFiles/cmTC_ee497.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ee497
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee497.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=time -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_ee497.dir/CheckFunctionExists.c.o -o cmTC_ee497 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function copysign exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bc19b/fast && /usr/bin/make  -f CMakeFiles/cmTC_bc19b.dir/build.make CMakeFiles/cmTC_bc19b.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc19b.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=copysign -o CMakeFiles/cmTC_bc19b.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘copysign’; expected ‘double(double,  double)’ [-Wbuiltin-declaration-mismatch]
+/opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c:1:1: note: ‘copysign’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_bc19b
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc19b.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=copysign -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_bc19b.dir/CheckFunctionExists.c.o -o cmTC_bc19b 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function getopt exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1fc29/fast && /usr/bin/make  -f CMakeFiles/cmTC_1fc29.dir/build.make CMakeFiles/cmTC_1fc29.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1fc29.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=getopt -o CMakeFiles/cmTC_1fc29.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1fc29
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1fc29.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=getopt -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_1fc29.dir/CheckFunctionExists.c.o -o cmTC_1fc29 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8353e/fast && /usr/bin/make  -f CMakeFiles/cmTC_8353e.dir/build.make CMakeFiles/cmTC_8353e.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8353e.dir/CheckIncludeFile.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_8353e.dir/CheckIncludeFile.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8353e
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8353e.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_8353e.dir/CheckIncludeFile.c.o -o cmTC_8353e 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3f058/fast && /usr/bin/make  -f CMakeFiles/cmTC_3f058.dir/build.make CMakeFiles/cmTC_3f058.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3f058.dir/SIZEOF_UINT32_T.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_3f058.dir/SIZEOF_UINT32_T.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CheckTypeSize/SIZEOF_UINT32_T.c
+Linking C executable cmTC_3f058
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f058.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_3f058.dir/SIZEOF_UINT32_T.c.o -o cmTC_3f058 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_17db0/fast && /usr/bin/make  -f CMakeFiles/cmTC_17db0.dir/build.make CMakeFiles/cmTC_17db0.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17db0.dir/SIZEOF_UNSIGNED_INT.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_17db0.dir/SIZEOF_UNSIGNED_INT.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_INT.c
+Linking C executable cmTC_17db0
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17db0.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_17db0.dir/SIZEOF_UNSIGNED_INT.c.o -o cmTC_17db0 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of unsigned long passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0c409/fast && /usr/bin/make  -f CMakeFiles/cmTC_0c409.dir/build.make CMakeFiles/cmTC_0c409.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0c409.dir/SIZEOF_UNSIGNED_LONG.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC  -o CMakeFiles/cmTC_0c409.dir/SIZEOF_UNSIGNED_LONG.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CheckTypeSize/SIZEOF_UNSIGNED_LONG.c
+Linking C executable cmTC_0c409
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c409.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_0c409.dir/SIZEOF_UNSIGNED_LONG.c.o -o cmTC_0c409 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sqrt exists in the m passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_48a60/fast && /usr/bin/make  -f CMakeFiles/cmTC_48a60.dir/build.make CMakeFiles/cmTC_48a60.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_48a60.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fPIC -DCHECK_FUNCTION_EXISTS=sqrt -o CMakeFiles/cmTC_48a60.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+<command-line>: warning: conflicting types for built-in function ‘sqrt’; expected ‘double(double)’ [-Wbuiltin-declaration-mismatch]
+/opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+    7 |   CHECK_FUNCTION_EXISTS(void);
+      |   ^~~~~~~~~~~~~~~~~~~~~
+/opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c:1:1: note: ‘sqrt’ is declared in header ‘<math.h>’
+  +++ |+#include <math.h>
+    1 | #ifdef CHECK_FUNCTION_EXISTS
+Linking C executable cmTC_48a60
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48a60.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC -DCHECK_FUNCTION_EXISTS=sqrt -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_48a60.dir/CheckFunctionExists.c.o -o cmTC_48a60  -lm 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_THREAD_LOCAL_STORAGE succeeded with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_10d80/fast && /usr/bin/make  -f CMakeFiles/cmTC_10d80.dir/build.make CMakeFiles/cmTC_10d80.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10d80.dir/src.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -DHAVE_THREAD_LOCAL_STORAGE  -fPIC  -o CMakeFiles/cmTC_10d80.dir/src.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_10d80
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10d80.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fPIC  -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_10d80.dir/src.c.o -o cmTC_10d80 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    __thread int tls;
+
+    int main(void) {
+        return 0;
+    }
+Determining if the __cplusplus exist passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e5430/fast && /usr/bin/make  -f CMakeFiles/cmTC_e5430.dir/build.make CMakeFiles/cmTC_e5430.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e5430.dir/CheckSymbolExists.cxx.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/g++    -o CMakeFiles/cmTC_e5430.dir/CheckSymbolExists.cxx.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_e5430
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5430.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/g++ -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_e5430.dir/CheckSymbolExists.cxx.o -o cmTC_e5430 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+File /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <ciso646>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __cplusplus
+  return ((int*)(&__cplusplus))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test SUPPORTS_STDCXX11 succeeded with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4039b/fast && /usr/bin/make  -f CMakeFiles/cmTC_4039b.dir/build.make CMakeFiles/cmTC_4039b.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4039b.dir/src.cxx.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/g++ -DSUPPORTS_STDCXX11  -std=c++11 -o CMakeFiles/cmTC_4039b.dir/src.cxx.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4039b
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4039b.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/g++ -L/home/gengz/gpu-v2/exageostat/installdir/lib  -rdynamic CMakeFiles/cmTC_4039b.dir/src.cxx.o -o cmTC_4039b 
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }

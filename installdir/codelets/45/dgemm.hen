@@ -1,0 +1,76 @@
+##################
+# Performance Model Version
+45
+
+####################
+# COMBs
+# number of combinations
+2
+####################
+# COMB_1
+# number of types devices
+1
+####################
+# DEV_0
+# device type (CPU - 0, CUDA - 1, OPENCL - 2, MIC - 3, MPI_MS - 5)
+0
+####################
+# DEV_0
+# device id 
+0
+####################
+# DEV_0
+# number of cores 
+1
+##########
+# number of implementations
+1
+#####
+# Model for cpu0_impl0 (Comb1)
+# number of entries
+3
+# sumlnx	sumlnx2		sumlny		sumlnxlny	alpha		beta		n	minx		maxx
+0.000000e+00   	0.000000e+00   	0.000000e+00   	0.000000e+00   	nan            	nan            	0	0              	0              
+# a		b		c
+nan            	nan            	nan            
+# not multiple-regression-base
+0
+# hash		size		flops		mean (us)	dev (us)	sum		sum2		n
+de8a9e82	4008           	0.000000e+00   	9.236061e-01   	1.847005e-01   	6.095800e+01   	5.855272e+01   	66
+69511832	504000         	0.000000e+00   	3.001854e+01   	5.922952e+00   	7.174431e+03   	2.237504e+05   	239
+f0bbe890	1500000        	0.000000e+00   	6.116239e+02   	3.662833e+01   	1.235480e+05   	7.583593e+07   	202
+
+####################
+# COMB_0
+# number of types devices
+1
+####################
+# DEV_0
+# device type (CPU - 0, CUDA - 1, OPENCL - 2, MIC - 3, MPI_MS - 5)
+1
+####################
+# DEV_0
+# device id 
+0
+####################
+# DEV_0
+# number of cores 
+1
+##########
+# number of implementations
+1
+#####
+# Model for cuda0_impl0 (Comb0)
+# number of entries
+3
+# sumlnx	sumlnx2		sumlny		sumlnxlny	alpha		beta		n	minx		maxx
+0.000000e+00   	0.000000e+00   	0.000000e+00   	0.000000e+00   	nan            	nan            	0	0              	0              
+# a		b		c
+nan            	nan            	nan            
+# not multiple-regression-base
+0
+# hash		size		flops		mean (us)	dev (us)	sum		sum2		n
+de8a9e82	4008           	0.000000e+00   	1.487650e+01   	1.174759e+00   	1.487650e+02   	2.226903e+03   	10
+69511832	504000         	0.000000e+00   	3.190690e+01   	1.348489e+00   	1.244369e+03   	3.977487e+04   	39
+f0bbe890	1500000        	0.000000e+00   	2.745768e+01   	5.603222e+00   	2.018139e+04   	5.772103e+05   	735
+

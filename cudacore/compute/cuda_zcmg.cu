@@ -58,15 +58,14 @@ __global__ void dcmg_array_kernel(double *A, int m, int n, int m0,
 
 void dcmg_array( double *A, int m, int n, int m0,
         int n0, double* l1_x_cuda, double* l1_y_cuda, double* l2_x_cuda, double* l2_y_cuda,
-        double *localtheta, int distance_metric, cudaStream_t stream){
+        double localtheta0, double localtheta1, double localtheta2, int distance_metric, cudaStream_t stream){
 
     int nBlockx= (m+CHUNKSIZE-1)/CHUNKSIZE;
     int nBlocky= (n+CHUNKSIZE-1)/CHUNKSIZE;
     dim3 dimBlock(CHUNKSIZE,CHUNKSIZE);
     dim3 dimGrid(nBlockx,nBlocky);
 
-
-    dcmg_array_kernel<<<dimGrid,dimBlock,0,stream>>>(A, m, n, m0, n0, l1_x_cuda, l1_y_cuda, l2_x_cuda, l2_y_cuda, localtheta[0],localtheta[1],localtheta[2], distance_metric);
+    dcmg_array_kernel<<<dimGrid,dimBlock,0,stream>>>(A, m, n, m0, n0, l1_x_cuda, l1_y_cuda, l2_x_cuda, l2_y_cuda, localtheta0,localtheta1,localtheta2, distance_metric);
 
 
 

@@ -1,0 +1,11 @@
+prefix=/home/gengz/gpu-v2/exageostat/installdir
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: NLopt
+Description: nonlinear optimization libary
+Version: 2.7.0
+Libs: -L${libdir} -lnlopt
+Libs.private: -lm
+Cflags: -I${includedir}

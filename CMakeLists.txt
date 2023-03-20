@@ -821,7 +821,8 @@ link_directories(${CHAMELEON_LIBRARY_DIRS})
 link_directories(${HICMA_LIBRARY_DIRS})
 
 if(EXAGEOSTAT_USE_CUDA)
-#set(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS} -gencode arch=compute_37,code=sm_37")
+	# Must uncomment this!
+	set(CUDA_NVCC_FLAGS "${CUDA_NVCC_FLAGS} -gencode arch=compute_37,code=sm_37")
 
 	CUDA_add_library( exageostat ${EXAGEOSTAT_SRC} ${EXAGEOSTAT_CHAMELEON_SRC} )
         set_target_properties(exageostat PROPERTIES LINKER_LANGUAGE C )

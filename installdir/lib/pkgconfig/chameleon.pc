@@ -1,0 +1,13 @@
+prefix=/home/gengz/gpu-v2/exageostat/installdir
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${exec_prefix}/include
+
+Name: chameleon
+Description: Dense Linear Algebra for Scalable Multi-core Architectures and GPGPUs
+Version: 1.0.0
+Cflags:  -I${includedir}
+Libs: -L${libdir} -lchameleon -lchameleon_starpu
+Libs.private: -lpthread -L/usr/lib/x86_64-linux-gnu -lm -L/usr/lib/x86_64-linux-gnu -lrt -L/opt/ecrc/cuda/11.4/lib64 -lcublas -L/opt/ecrc/cuda/11.4/lib64 -lcudart_static -lThreads::Threads -ldl
+Requires: hqr coreblas cudablas
+Requires.private: libstarpu

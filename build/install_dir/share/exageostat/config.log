@@ -1,0 +1,51 @@
+
+Configuration of ExaGeoStat:
+        BUILDNAME ...........: Linux-gcc
+        SITE ................: hen
+ 
+        Compiler: C .........: /opt/ecrc/gcc/10.2.0/ub18/bin/gcc (GNU)
+        Compiler: Fortran ...:  ()
+        Linker: .............: /usr/bin/ld
+ 
+        Build type ..........: 
+        Build shared ........: OFF
+        CFlags ..............: -fcommon
+        LDFlags .............: -L/opt/ecrc/cuda/11.4/lib64 -Wl,--no-as-needed -lcublas -lstdc++
+ 
+        Implementation paradigm
+        CUDA ................: =ON
+        MPI .................: OFF
+ 
+        Runtime specific
+        QUARK ...............: OFF
+        PARSEC ..............: 
+        StarPU ..............: 1
+ 
+        Kernels specific
+        BLAS ................: Intel MKL
+        LAPACK...............: Intel MKL
+ 
+        EXAGEOSTAT dependencies :
+                                  nlopt
+                                  chameleon
+                                  chameleon_starpu
+                                  hqr
+                                  coreblas
+                                  cudablas
+                                  starpu-1.3
+                                  pthread
+                                  hwloc
+                                  /opt/ecrc/mkl/2020.0.166/mkl/lib/intel64/libmkl_intel_lp64.so
+                                  /opt/ecrc/mkl/2020.0.166/mkl/lib/intel64/libmkl_sequential.so
+                                  /opt/ecrc/mkl/2020.0.166/mkl/lib/intel64/libmkl_core.so
+                                  -lpthread
+                                  -lm
+                                  /home/gengz/gpu-v2/exageostat/installdir/lib/libgsl.so
+                                  /home/gengz/gpu-v2/exageostat/installdir/lib/libgslcblas.so
+                                  /usr/lib/x86_64-linux-gnu/libm.so
+                                  /usr/lib/x86_64-linux-gnu/librt.so
+ 
+        Definitions: VERSION=1.0.0 CBLAS_HAS_ZGEMM3M CBLAS_HAS_CGEMM3M EXAGEOSTAT_USE_CUDA
+ 
+        INSTALL_PREFIX ......: /home/gengz/gpu-v2/exageostat/build/install_dir
+

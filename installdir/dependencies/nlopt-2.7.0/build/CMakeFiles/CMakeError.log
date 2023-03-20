@@ -1,0 +1,37 @@
+Performing C SOURCE FILE Test HAVE_THREAD_LOCAL_STORAGE failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4952c/fast && /usr/bin/make  -f CMakeFiles/cmTC_4952c.dir/build.make CMakeFiles/cmTC_4952c.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4952c.dir/src.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -DHAVE_THREAD_LOCAL_STORAGE  -fPIC  -o CMakeFiles/cmTC_4952c.dir/src.c.o -c /home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/src.c
+/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/src.c:2:5: warning: return type defaults to ‘int’ [-Wimplicit-int]
+    2 |     __declspec(thread) int tls;
+      |     ^~~~~~~~~~
+/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/src.c: In function ‘__declspec’:
+/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/src.c:4:20: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+    4 |     int main(void) {
+      |                    ^
+/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/src.c:2:5: warning: type of ‘thread’ defaults to ‘int’ [-Wimplicit-int]
+    2 |     __declspec(thread) int tls;
+      |     ^~~~~~~~~~
+/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/src.c:2:28: error: declaration for parameter ‘tls’ but no such parameter
+    2 |     __declspec(thread) int tls;
+      |                            ^~~
+/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp/src.c:6: error: expected ‘{’ at end of input
+    6 |     }
+      | 
+CMakeFiles/cmTC_4952c.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_4952c.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4952c.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/installdir/dependencies/nlopt-2.7.0/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_4952c/fast' failed
+make: *** [cmTC_4952c/fast] Error 2
+
+
+Source file was:
+
+    __declspec(thread) int tls;
+
+    int main(void) {
+        return 0;
+    }

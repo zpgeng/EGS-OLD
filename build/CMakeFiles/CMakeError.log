@@ -1,0 +1,359 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_038ef/fast && /usr/bin/make  -f CMakeFiles/cmTC_038ef.dir/build.make CMakeFiles/cmTC_038ef.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_038ef.dir/src.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD  -fcommon  -o CMakeFiles/cmTC_038ef.dir/src.c.o -c /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_038ef
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_038ef.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon  -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_038ef.dir/src.c.o -o cmTC_038ef 
+CMakeFiles/cmTC_038ef.dir/src.c.o: In function `main':
+src.c:(.text+0x2d): undefined reference to `pthread_create'
+src.c:(.text+0x39): undefined reference to `pthread_detach'
+src.c:(.text+0x45): undefined reference to `pthread_cancel'
+src.c:(.text+0x56): undefined reference to `pthread_join'
+src.c:(.text+0x6a): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_038ef.dir/build.make:98: recipe for target 'cmTC_038ef' failed
+make[1]: *** [cmTC_038ef] Error 1
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_038ef/fast' failed
+make: *** [cmTC_038ef/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b3fec/fast && /usr/bin/make  -f CMakeFiles/cmTC_b3fec.dir/build.make CMakeFiles/cmTC_b3fec.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3fec.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_b3fec.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b3fec
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3fec.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=pthread_create -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_b3fec.dir/CheckFunctionExists.c.o -o cmTC_b3fec  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b3fec.dir/build.make:98: recipe for target 'cmTC_b3fec' failed
+make[1]: *** [cmTC_b3fec] Error 1
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_b3fec/fast' failed
+make: *** [cmTC_b3fec/fast] Error 2
+
+
+
+Determining if the function CHEEV_ exists failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3e5d9/fast && /usr/bin/make  -f CMakeFiles/cmTC_3e5d9.dir/build.make CMakeFiles/cmTC_3e5d9.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e5d9.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -o CMakeFiles/cmTC_3e5d9.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3e5d9
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e5d9.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_3e5d9.dir/CheckFunctionExists.c.o -o cmTC_3e5d9  -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+CMakeFiles/cmTC_3e5d9.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `CHEEV_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3e5d9.dir/build.make:101: recipe for target 'cmTC_3e5d9' failed
+make[1]: *** [cmTC_3e5d9] Error 1
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_3e5d9/fast' failed
+make: *** [cmTC_3e5d9/fast] Error 2
+
+
+
+Determining if the function hwloc_bitmap_free exists in the hwloc failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_72c05/fast && /usr/bin/make  -f CMakeFiles/cmTC_72c05.dir/build.make CMakeFiles/cmTC_72c05.dir/build
+make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72c05.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=hwloc_bitmap_free -fopenmp -o CMakeFiles/cmTC_72c05.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_72c05
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72c05.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=hwloc_bitmap_free -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_72c05.dir/CheckFunctionExists.c.o -o cmTC_72c05  -lhwloc 
+/usr/bin/ld: cannot find -lhwloc
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_72c05.dir/build.make:98: recipe for target 'cmTC_72c05' failed
+make[1]: *** [cmTC_72c05] Error 1
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_72c05/fast' failed
+make: *** [cmTC_72c05/fast] Error 2
+
+
+
+Determining if the function CHEEV_ exists failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8d9f9/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_8d9f9.dir/build.make CMakeFiles/cmTC_8d9f9.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8d9f9.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -o CMakeFiles/cmTC_8d9f9.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8d9f9
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d9f9.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_8d9f9.dir/CheckFunctionExists.c.o -o cmTC_8d9f9  -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+CMakeFiles/cmTC_8d9f9.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `CHEEV_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8d9f9.dir/build.make:101: recipe for target 'cmTC_8d9f9' failed
+make[2]: *** [cmTC_8d9f9] Error 1
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_8d9f9/fast' failed
+make[1]: *** [cmTC_8d9f9/fast] Error 2
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function CHEEV_ exists failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f3aaf/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f3aaf.dir/build.make CMakeFiles/cmTC_f3aaf.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3aaf.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -o CMakeFiles/cmTC_f3aaf.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f3aaf
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3aaf.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_f3aaf.dir/CheckFunctionExists.c.o -o cmTC_f3aaf  -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+CMakeFiles/cmTC_f3aaf.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `CHEEV_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f3aaf.dir/build.make:101: recipe for target 'cmTC_f3aaf' failed
+make[2]: *** [cmTC_f3aaf] Error 1
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_f3aaf/fast' failed
+make[1]: *** [cmTC_f3aaf/fast] Error 2
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function CHEEV_ exists failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f38c8/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f38c8.dir/build.make CMakeFiles/cmTC_f38c8.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f38c8.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -o CMakeFiles/cmTC_f38c8.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f38c8
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f38c8.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_f38c8.dir/CheckFunctionExists.c.o -o cmTC_f38c8  -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+CMakeFiles/cmTC_f38c8.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `CHEEV_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f38c8.dir/build.make:101: recipe for target 'cmTC_f38c8' failed
+make[2]: *** [cmTC_f38c8] Error 1
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_f38c8/fast' failed
+make[1]: *** [cmTC_f38c8/fast] Error 2
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function CHEEV_ exists failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_09bd1/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_09bd1.dir/build.make CMakeFiles/cmTC_09bd1.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09bd1.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -o CMakeFiles/cmTC_09bd1.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_09bd1
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09bd1.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_09bd1.dir/CheckFunctionExists.c.o -o cmTC_09bd1  -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+CMakeFiles/cmTC_09bd1.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `CHEEV_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_09bd1.dir/build.make:101: recipe for target 'cmTC_09bd1' failed
+make[2]: *** [cmTC_09bd1] Error 1
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_09bd1/fast' failed
+make[1]: *** [cmTC_09bd1/fast] Error 2
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function CHEEV_ exists failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_26ebe/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_26ebe.dir/build.make CMakeFiles/cmTC_26ebe.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26ebe.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -o CMakeFiles/cmTC_26ebe.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_26ebe
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26ebe.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_26ebe.dir/CheckFunctionExists.c.o -o cmTC_26ebe  -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+CMakeFiles/cmTC_26ebe.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `CHEEV_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_26ebe.dir/build.make:101: recipe for target 'cmTC_26ebe' failed
+make[2]: *** [cmTC_26ebe] Error 1
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_26ebe/fast' failed
+make[1]: *** [cmTC_26ebe/fast] Error 2
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function CHEEV_ exists failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b970e/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b970e.dir/build.make CMakeFiles/cmTC_b970e.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b970e.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -o CMakeFiles/cmTC_b970e.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b970e
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b970e.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_b970e.dir/CheckFunctionExists.c.o -o cmTC_b970e  -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+CMakeFiles/cmTC_b970e.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `CHEEV_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b970e.dir/build.make:101: recipe for target 'cmTC_b970e' failed
+make[2]: *** [cmTC_b970e] Error 1
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_b970e/fast' failed
+make[1]: *** [cmTC_b970e/fast] Error 2
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function CHEEV_ exists failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_654e4/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_654e4.dir/build.make CMakeFiles/cmTC_654e4.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_654e4.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -o CMakeFiles/cmTC_654e4.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_654e4
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_654e4.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_654e4.dir/CheckFunctionExists.c.o -o cmTC_654e4  -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+CMakeFiles/cmTC_654e4.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `CHEEV_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_654e4.dir/build.make:101: recipe for target 'cmTC_654e4' failed
+make[2]: *** [cmTC_654e4] Error 1
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_654e4/fast' failed
+make[1]: *** [cmTC_654e4/fast] Error 2
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function CHEEV_ exists failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_88da5/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_88da5.dir/build.make CMakeFiles/cmTC_88da5.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88da5.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -o CMakeFiles/cmTC_88da5.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_88da5
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88da5.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_88da5.dir/CheckFunctionExists.c.o -o cmTC_88da5  -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+CMakeFiles/cmTC_88da5.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `CHEEV_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_88da5.dir/build.make:101: recipe for target 'cmTC_88da5' failed
+make[2]: *** [cmTC_88da5] Error 1
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_88da5/fast' failed
+make[1]: *** [cmTC_88da5/fast] Error 2
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function CHEEV_ exists failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d42bd/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_d42bd.dir/build.make CMakeFiles/cmTC_d42bd.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d42bd.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -o CMakeFiles/cmTC_d42bd.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d42bd
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d42bd.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_d42bd.dir/CheckFunctionExists.c.o -o cmTC_d42bd  -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+CMakeFiles/cmTC_d42bd.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `CHEEV_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d42bd.dir/build.make:101: recipe for target 'cmTC_d42bd' failed
+make[2]: *** [cmTC_d42bd] Error 1
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_d42bd/fast' failed
+make[1]: *** [cmTC_d42bd/fast] Error 2
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function CHEEV_ exists failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9568f/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_9568f.dir/build.make CMakeFiles/cmTC_9568f.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9568f.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -o CMakeFiles/cmTC_9568f.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9568f
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9568f.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_9568f.dir/CheckFunctionExists.c.o -o cmTC_9568f  -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+CMakeFiles/cmTC_9568f.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `CHEEV_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9568f.dir/build.make:101: recipe for target 'cmTC_9568f' failed
+make[2]: *** [cmTC_9568f] Error 1
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_9568f/fast' failed
+make[1]: *** [cmTC_9568f/fast] Error 2
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function CHEEV_ exists failed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2e82b/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_2e82b.dir/build.make CMakeFiles/cmTC_2e82b.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e82b.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -o CMakeFiles/cmTC_2e82b.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2e82b
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e82b.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=CHEEV_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_2e82b.dir/CheckFunctionExists.c.o -o cmTC_2e82b  -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+CMakeFiles/cmTC_2e82b.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `CHEEV_'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2e82b.dir/build.make:101: recipe for target 'cmTC_2e82b' failed
+make[2]: *** [cmTC_2e82b] Error 1
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Makefile:127: recipe for target 'cmTC_2e82b/fast' failed
+make[1]: *** [cmTC_2e82b/fast] Error 2
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
