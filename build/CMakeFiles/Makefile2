@@ -922,14 +922,14 @@ examples/CMakeFiles/synthetic_dmle_test.dir/clean:
 # Target rules for target examples/CMakeFiles/extract_tests_data.dir
 
 # All Build rule for target.
-examples/CMakeFiles/extract_tests_data.dir/all: examples/CMakeFiles/synthetic_smle_test.dir/all
-examples/CMakeFiles/extract_tests_data.dir/all: examples/CMakeFiles/real_csv_smle_test.dir/all
-examples/CMakeFiles/extract_tests_data.dir/all: examples/CMakeFiles/real_csv_dmle_test.dir/all
-examples/CMakeFiles/extract_tests_data.dir/all: examples/CMakeFiles/real_csv_sdmle_test.dir/all
+examples/CMakeFiles/extract_tests_data.dir/all: examples/CMakeFiles/synthetic_dmle_test.dir/all
 examples/CMakeFiles/extract_tests_data.dir/all: examples/CMakeFiles/synthetic_sdmle_test.dir/all
 examples/CMakeFiles/extract_tests_data.dir/all: examples/CMakeFiles/synthetic_dmle_locs_rwrapper_test.dir/all
 examples/CMakeFiles/extract_tests_data.dir/all: examples/CMakeFiles/synthetic_dmle_rwrapper_test.dir/all
-examples/CMakeFiles/extract_tests_data.dir/all: examples/CMakeFiles/synthetic_dmle_test.dir/all
+examples/CMakeFiles/extract_tests_data.dir/all: examples/CMakeFiles/real_csv_dmle_test.dir/all
+examples/CMakeFiles/extract_tests_data.dir/all: examples/CMakeFiles/real_csv_sdmle_test.dir/all
+examples/CMakeFiles/extract_tests_data.dir/all: examples/CMakeFiles/synthetic_smle_test.dir/all
+examples/CMakeFiles/extract_tests_data.dir/all: examples/CMakeFiles/real_csv_smle_test.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/extract_tests_data.dir/build.make examples/CMakeFiles/extract_tests_data.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/extract_tests_data.dir/build.make examples/CMakeFiles/extract_tests_data.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gengz/gpu-v2/exageostat/build/CMakeFiles --progress-num= "Built target extract_tests_data"

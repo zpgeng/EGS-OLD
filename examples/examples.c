@@ -209,7 +209,7 @@ void init(int *test, int *N,  int *ncores, int *gpus, int *p_grid, int *q_grid, 
 	data->lm         = l;
 	//****************************************
 
-	if(strcmp(data->kernel_fun, "univariate_matern_stationary")   == 0 || strcmp(data->kernel_fun, "univariate_pow_exp_stationary")   == 0)
+	if(strcmp(data->kernel_fun, "univariate_matern_stationary")   == 0 || strcmp(data->kernel_fun, "univariate_power_exp_stationary")   == 0)
 		num_params = 3;
 	else if(strcmp(data->kernel_fun, "univariate_matern_nuggets_stationary")   == 0)
 		num_params = 4;
@@ -225,7 +225,7 @@ void init(int *test, int *N,  int *ncores, int *gpus, int *p_grid, int *q_grid, 
 		num_params = 6;
 	else if(strcmp(data->kernel_fun, "bivariate_matern_parsimonious2_profile")   == 0)
 		num_params = 6;
-        else if(strcmp(data->kernel_fun, "univariate_spacetime_matern_stationary")   == 0)
+    else if(strcmp(data->kernel_fun, "univariate_spacetime_matern_stationary")   == 0)
                 num_params = 7;
 	else
 	{

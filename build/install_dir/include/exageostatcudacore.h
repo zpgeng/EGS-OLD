@@ -32,10 +32,6 @@ int cuda_sdconv(int m, int n,
         cuFloatComplex *A, int lda,
         cuDoubleComplex *B, int ldb, cublasHandle_t handle);
 
-
-void cuda_dcmg( double *A, int m, int n, int m0,
-        int n0, double* l1_x_cuda, double* l1_y_cuda, double* l2_x_cuda, double* l2_y_cuda,
-        double *localtheta, int distance_metric, cublasHandle_t handle);
 #ifdef __cplusplus
 extern "C"
 {
@@ -50,13 +46,9 @@ extern "C"
             double *H, int ldh ,
             cublasOperation_t transa, cudaStream_t stream);
 
-
-    void dcmg_array(double *A, int m, int n,
-            int m0, int n0,
-            double* l1_x_cuda, double* l1_y_cuda, double* l2_x_cuda, double* l2_y_cuda,
-            double *localtheta, int distance_metric,
-            cudaStream_t stream);
-
+    void dcmg_powexp( double *A, int m, int n, int m0,
+        int n0, double* l1_x_cuda, double* l1_y_cuda, double* l2_x_cuda, double* l2_y_cuda,
+        double *localtheta, int distance_metric, cudaStream_t stream);
 #ifdef __cplusplus
 }
 #endif

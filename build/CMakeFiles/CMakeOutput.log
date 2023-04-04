@@ -1368,3 +1368,1203 @@ make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMake
 
 
 
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_38835/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_38835.dir/build.make CMakeFiles/cmTC_38835.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38835.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -o CMakeFiles/cmTC_38835.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_38835
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38835.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_38835.dir/CheckFunctionExists.c.o -o cmTC_38835  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core /opt/ecrc/gcc/10.2.0/ub18/lib64/libgomp.so -ldl -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dbb4d/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_dbb4d.dir/build.make CMakeFiles/cmTC_dbb4d.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dbb4d.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -o CMakeFiles/cmTC_dbb4d.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_dbb4d
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dbb4d.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_dbb4d.dir/CheckFunctionExists.c.o -o cmTC_dbb4d  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cblas_dscal exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_198e2/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_198e2.dir/build.make CMakeFiles/cmTC_198e2.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_198e2.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -o CMakeFiles/cmTC_198e2.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_198e2
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_198e2.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_198e2.dir/CheckFunctionExists.c.o -o cmTC_198e2  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_afc2c/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_afc2c.dir/build.make CMakeFiles/cmTC_afc2c.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_afc2c.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -o CMakeFiles/cmTC_afc2c.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_afc2c
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afc2c.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_afc2c.dir/CheckFunctionExists.c.o -o cmTC_afc2c  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function LAPACKE_dgeqrf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_494b4/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_494b4.dir/build.make CMakeFiles/cmTC_494b4.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_494b4.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -o CMakeFiles/cmTC_494b4.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_494b4
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_494b4.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_494b4.dir/CheckFunctionExists.c.o -o cmTC_494b4  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_252b1/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_252b1.dir/build.make CMakeFiles/cmTC_252b1.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_252b1.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -o CMakeFiles/cmTC_252b1.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_252b1
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_252b1.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_252b1.dir/CheckFunctionExists.c.o -o cmTC_252b1  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core /opt/ecrc/gcc/10.2.0/ub18/lib64/libgomp.so -ldl -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6eb6b/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_6eb6b.dir/build.make CMakeFiles/cmTC_6eb6b.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6eb6b.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -o CMakeFiles/cmTC_6eb6b.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6eb6b
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6eb6b.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_6eb6b.dir/CheckFunctionExists.c.o -o cmTC_6eb6b  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cblas_dscal exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2ecaf/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_2ecaf.dir/build.make CMakeFiles/cmTC_2ecaf.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ecaf.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -o CMakeFiles/cmTC_2ecaf.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2ecaf
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ecaf.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_2ecaf.dir/CheckFunctionExists.c.o -o cmTC_2ecaf  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5fe43/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_5fe43.dir/build.make CMakeFiles/cmTC_5fe43.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fe43.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -o CMakeFiles/cmTC_5fe43.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5fe43
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fe43.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_5fe43.dir/CheckFunctionExists.c.o -o cmTC_5fe43  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function LAPACKE_dgeqrf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9c246/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_9c246.dir/build.make CMakeFiles/cmTC_9c246.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c246.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -o CMakeFiles/cmTC_9c246.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9c246
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c246.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_9c246.dir/CheckFunctionExists.c.o -o cmTC_9c246  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eccc9/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_eccc9.dir/build.make CMakeFiles/cmTC_eccc9.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eccc9.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -o CMakeFiles/cmTC_eccc9.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eccc9
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eccc9.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_eccc9.dir/CheckFunctionExists.c.o -o cmTC_eccc9  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core /opt/ecrc/gcc/10.2.0/ub18/lib64/libgomp.so -ldl -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ca491/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_ca491.dir/build.make CMakeFiles/cmTC_ca491.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca491.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -o CMakeFiles/cmTC_ca491.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ca491
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca491.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_ca491.dir/CheckFunctionExists.c.o -o cmTC_ca491  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cblas_dscal exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_246fb/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_246fb.dir/build.make CMakeFiles/cmTC_246fb.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_246fb.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -o CMakeFiles/cmTC_246fb.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_246fb
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_246fb.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_246fb.dir/CheckFunctionExists.c.o -o cmTC_246fb  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6440f/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_6440f.dir/build.make CMakeFiles/cmTC_6440f.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6440f.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -o CMakeFiles/cmTC_6440f.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6440f
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6440f.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_6440f.dir/CheckFunctionExists.c.o -o cmTC_6440f  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function LAPACKE_dgeqrf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_71008/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_71008.dir/build.make CMakeFiles/cmTC_71008.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71008.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -o CMakeFiles/cmTC_71008.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_71008
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71008.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_71008.dir/CheckFunctionExists.c.o -o cmTC_71008  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f88d8/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f88d8.dir/build.make CMakeFiles/cmTC_f88d8.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f88d8.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -o CMakeFiles/cmTC_f88d8.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f88d8
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f88d8.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_f88d8.dir/CheckFunctionExists.c.o -o cmTC_f88d8  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core /opt/ecrc/gcc/10.2.0/ub18/lib64/libgomp.so -ldl -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2b316/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_2b316.dir/build.make CMakeFiles/cmTC_2b316.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b316.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -o CMakeFiles/cmTC_2b316.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2b316
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b316.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_2b316.dir/CheckFunctionExists.c.o -o cmTC_2b316  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cblas_dscal exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b6c95/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b6c95.dir/build.make CMakeFiles/cmTC_b6c95.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6c95.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -o CMakeFiles/cmTC_b6c95.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b6c95
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6c95.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_b6c95.dir/CheckFunctionExists.c.o -o cmTC_b6c95  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_710d1/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_710d1.dir/build.make CMakeFiles/cmTC_710d1.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_710d1.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -o CMakeFiles/cmTC_710d1.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_710d1
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_710d1.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_710d1.dir/CheckFunctionExists.c.o -o cmTC_710d1  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function LAPACKE_dgeqrf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0a190/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_0a190.dir/build.make CMakeFiles/cmTC_0a190.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a190.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -o CMakeFiles/cmTC_0a190.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0a190
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a190.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_0a190.dir/CheckFunctionExists.c.o -o cmTC_0a190  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a3184/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_a3184.dir/build.make CMakeFiles/cmTC_a3184.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3184.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -o CMakeFiles/cmTC_a3184.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a3184
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3184.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_a3184.dir/CheckFunctionExists.c.o -o cmTC_a3184  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core /opt/ecrc/gcc/10.2.0/ub18/lib64/libgomp.so -ldl -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_899e1/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_899e1.dir/build.make CMakeFiles/cmTC_899e1.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_899e1.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -o CMakeFiles/cmTC_899e1.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_899e1
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_899e1.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_899e1.dir/CheckFunctionExists.c.o -o cmTC_899e1  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cblas_dscal exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_33461/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_33461.dir/build.make CMakeFiles/cmTC_33461.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33461.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -o CMakeFiles/cmTC_33461.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_33461
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33461.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_33461.dir/CheckFunctionExists.c.o -o cmTC_33461  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f2f01/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f2f01.dir/build.make CMakeFiles/cmTC_f2f01.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2f01.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -o CMakeFiles/cmTC_f2f01.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2f01
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2f01.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_f2f01.dir/CheckFunctionExists.c.o -o cmTC_f2f01  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function LAPACKE_dgeqrf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bb315/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_bb315.dir/build.make CMakeFiles/cmTC_bb315.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb315.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -o CMakeFiles/cmTC_bb315.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bb315
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb315.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_bb315.dir/CheckFunctionExists.c.o -o cmTC_bb315  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_702c0/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_702c0.dir/build.make CMakeFiles/cmTC_702c0.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_702c0.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -o CMakeFiles/cmTC_702c0.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_702c0
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_702c0.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_702c0.dir/CheckFunctionExists.c.o -o cmTC_702c0  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core /opt/ecrc/gcc/10.2.0/ub18/lib64/libgomp.so -ldl -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d921b/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_d921b.dir/build.make CMakeFiles/cmTC_d921b.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d921b.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -o CMakeFiles/cmTC_d921b.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d921b
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d921b.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_d921b.dir/CheckFunctionExists.c.o -o cmTC_d921b  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cblas_dscal exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b2af4/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b2af4.dir/build.make CMakeFiles/cmTC_b2af4.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2af4.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -o CMakeFiles/cmTC_b2af4.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b2af4
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2af4.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_b2af4.dir/CheckFunctionExists.c.o -o cmTC_b2af4  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f82ca/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f82ca.dir/build.make CMakeFiles/cmTC_f82ca.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f82ca.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -o CMakeFiles/cmTC_f82ca.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f82ca
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f82ca.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_f82ca.dir/CheckFunctionExists.c.o -o cmTC_f82ca  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function LAPACKE_dgeqrf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f91e9/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f91e9.dir/build.make CMakeFiles/cmTC_f91e9.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f91e9.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -o CMakeFiles/cmTC_f91e9.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f91e9
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f91e9.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_f91e9.dir/CheckFunctionExists.c.o -o cmTC_f91e9  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_658ee/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_658ee.dir/build.make CMakeFiles/cmTC_658ee.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_658ee.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -o CMakeFiles/cmTC_658ee.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_658ee
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_658ee.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_658ee.dir/CheckFunctionExists.c.o -o cmTC_658ee  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core /opt/ecrc/gcc/10.2.0/ub18/lib64/libgomp.so -ldl -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f9a01/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f9a01.dir/build.make CMakeFiles/cmTC_f9a01.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9a01.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -o CMakeFiles/cmTC_f9a01.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f9a01
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9a01.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_f9a01.dir/CheckFunctionExists.c.o -o cmTC_f9a01  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cblas_dscal exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_be173/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_be173.dir/build.make CMakeFiles/cmTC_be173.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be173.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -o CMakeFiles/cmTC_be173.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_be173
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be173.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_be173.dir/CheckFunctionExists.c.o -o cmTC_be173  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f364d/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f364d.dir/build.make CMakeFiles/cmTC_f364d.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f364d.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -o CMakeFiles/cmTC_f364d.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f364d
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f364d.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_f364d.dir/CheckFunctionExists.c.o -o cmTC_f364d  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function LAPACKE_dgeqrf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2a2db/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_2a2db.dir/build.make CMakeFiles/cmTC_2a2db.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a2db.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -o CMakeFiles/cmTC_2a2db.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2a2db
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a2db.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_2a2db.dir/CheckFunctionExists.c.o -o cmTC_2a2db  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_26980/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_26980.dir/build.make CMakeFiles/cmTC_26980.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26980.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -o CMakeFiles/cmTC_26980.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_26980
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26980.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_26980.dir/CheckFunctionExists.c.o -o cmTC_26980  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core /opt/ecrc/gcc/10.2.0/ub18/lib64/libgomp.so -ldl -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7a2f3/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_7a2f3.dir/build.make CMakeFiles/cmTC_7a2f3.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a2f3.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -o CMakeFiles/cmTC_7a2f3.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7a2f3
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a2f3.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_7a2f3.dir/CheckFunctionExists.c.o -o cmTC_7a2f3  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cblas_dscal exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5c363/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_5c363.dir/build.make CMakeFiles/cmTC_5c363.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c363.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -o CMakeFiles/cmTC_5c363.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5c363
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c363.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_5c363.dir/CheckFunctionExists.c.o -o cmTC_5c363  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_17a67/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_17a67.dir/build.make CMakeFiles/cmTC_17a67.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17a67.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -o CMakeFiles/cmTC_17a67.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_17a67
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17a67.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_17a67.dir/CheckFunctionExists.c.o -o cmTC_17a67  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function LAPACKE_dgeqrf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a22bf/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_a22bf.dir/build.make CMakeFiles/cmTC_a22bf.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a22bf.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -o CMakeFiles/cmTC_a22bf.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a22bf
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a22bf.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_a22bf.dir/CheckFunctionExists.c.o -o cmTC_a22bf  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2a6e4/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_2a6e4.dir/build.make CMakeFiles/cmTC_2a6e4.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2a6e4.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -o CMakeFiles/cmTC_2a6e4.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2a6e4
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a6e4.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_2a6e4.dir/CheckFunctionExists.c.o -o cmTC_2a6e4  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core /opt/ecrc/gcc/10.2.0/ub18/lib64/libgomp.so -ldl -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_709d8/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_709d8.dir/build.make CMakeFiles/cmTC_709d8.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_709d8.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -o CMakeFiles/cmTC_709d8.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_709d8
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_709d8.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_709d8.dir/CheckFunctionExists.c.o -o cmTC_709d8  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cblas_dscal exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_82297/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_82297.dir/build.make CMakeFiles/cmTC_82297.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82297.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -o CMakeFiles/cmTC_82297.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_82297
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82297.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_82297.dir/CheckFunctionExists.c.o -o cmTC_82297  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_85dad/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_85dad.dir/build.make CMakeFiles/cmTC_85dad.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85dad.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -o CMakeFiles/cmTC_85dad.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_85dad
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85dad.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_85dad.dir/CheckFunctionExists.c.o -o cmTC_85dad  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function LAPACKE_dgeqrf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0df12/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_0df12.dir/build.make CMakeFiles/cmTC_0df12.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0df12.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -o CMakeFiles/cmTC_0df12.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0df12
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0df12.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_0df12.dir/CheckFunctionExists.c.o -o cmTC_0df12  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_12cd8/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_12cd8.dir/build.make CMakeFiles/cmTC_12cd8.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12cd8.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -o CMakeFiles/cmTC_12cd8.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_12cd8
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12cd8.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_12cd8.dir/CheckFunctionExists.c.o -o cmTC_12cd8  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core /opt/ecrc/gcc/10.2.0/ub18/lib64/libgomp.so -ldl -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f7220/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_f7220.dir/build.make CMakeFiles/cmTC_f7220.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7220.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -o CMakeFiles/cmTC_f7220.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f7220
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7220.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_f7220.dir/CheckFunctionExists.c.o -o cmTC_f7220  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cblas_dscal exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_46e20/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_46e20.dir/build.make CMakeFiles/cmTC_46e20.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46e20.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -o CMakeFiles/cmTC_46e20.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_46e20
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46e20.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_46e20.dir/CheckFunctionExists.c.o -o cmTC_46e20  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ce90f/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_ce90f.dir/build.make CMakeFiles/cmTC_ce90f.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce90f.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -o CMakeFiles/cmTC_ce90f.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ce90f
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce90f.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_ce90f.dir/CheckFunctionExists.c.o -o cmTC_ce90f  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function LAPACKE_dgeqrf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ee421/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_ee421.dir/build.make CMakeFiles/cmTC_ee421.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee421.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -o CMakeFiles/cmTC_ee421.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ee421
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee421.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_ee421.dir/CheckFunctionExists.c.o -o cmTC_ee421  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ca19a/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_ca19a.dir/build.make CMakeFiles/cmTC_ca19a.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ca19a.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -o CMakeFiles/cmTC_ca19a.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ca19a
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca19a.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_ca19a.dir/CheckFunctionExists.c.o -o cmTC_ca19a  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core /opt/ecrc/gcc/10.2.0/ub18/lib64/libgomp.so -ldl -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_17d0a/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_17d0a.dir/build.make CMakeFiles/cmTC_17d0a.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17d0a.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -o CMakeFiles/cmTC_17d0a.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_17d0a
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17d0a.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_17d0a.dir/CheckFunctionExists.c.o -o cmTC_17d0a  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cblas_dscal exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_83e9e/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_83e9e.dir/build.make CMakeFiles/cmTC_83e9e.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83e9e.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -o CMakeFiles/cmTC_83e9e.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_83e9e
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83e9e.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_83e9e.dir/CheckFunctionExists.c.o -o cmTC_83e9e  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_93f55/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_93f55.dir/build.make CMakeFiles/cmTC_93f55.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93f55.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -o CMakeFiles/cmTC_93f55.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_93f55
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93f55.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_93f55.dir/CheckFunctionExists.c.o -o cmTC_93f55  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function LAPACKE_dgeqrf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e7173/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_e7173.dir/build.make CMakeFiles/cmTC_e7173.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e7173.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -o CMakeFiles/cmTC_e7173.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e7173
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7173.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_e7173.dir/CheckFunctionExists.c.o -o cmTC_e7173  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6535e/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_6535e.dir/build.make CMakeFiles/cmTC_6535e.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6535e.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -o CMakeFiles/cmTC_6535e.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6535e
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6535e.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_6535e.dir/CheckFunctionExists.c.o -o cmTC_6535e  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core /opt/ecrc/gcc/10.2.0/ub18/lib64/libgomp.so -ldl -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d143c/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_d143c.dir/build.make CMakeFiles/cmTC_d143c.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d143c.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -o CMakeFiles/cmTC_d143c.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d143c
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d143c.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_d143c.dir/CheckFunctionExists.c.o -o cmTC_d143c  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cblas_dscal exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_18431/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_18431.dir/build.make CMakeFiles/cmTC_18431.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18431.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -o CMakeFiles/cmTC_18431.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_18431
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18431.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_18431.dir/CheckFunctionExists.c.o -o cmTC_18431  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b829c/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b829c.dir/build.make CMakeFiles/cmTC_b829c.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b829c.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -o CMakeFiles/cmTC_b829c.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b829c
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b829c.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_b829c.dir/CheckFunctionExists.c.o -o cmTC_b829c  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function LAPACKE_dgeqrf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e378c/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_e378c.dir/build.make CMakeFiles/cmTC_e378c.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e378c.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -o CMakeFiles/cmTC_e378c.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e378c
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e378c.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_e378c.dir/CheckFunctionExists.c.o -o cmTC_e378c  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9e612/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_9e612.dir/build.make CMakeFiles/cmTC_9e612.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e612.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -o CMakeFiles/cmTC_9e612.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9e612
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e612.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_9e612.dir/CheckFunctionExists.c.o -o cmTC_9e612  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core /opt/ecrc/gcc/10.2.0/ub18/lib64/libgomp.so -ldl -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_075ec/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_075ec.dir/build.make CMakeFiles/cmTC_075ec.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_075ec.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -o CMakeFiles/cmTC_075ec.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_075ec
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_075ec.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_075ec.dir/CheckFunctionExists.c.o -o cmTC_075ec  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cblas_dscal exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_28846/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_28846.dir/build.make CMakeFiles/cmTC_28846.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28846.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -o CMakeFiles/cmTC_28846.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_28846
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28846.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_28846.dir/CheckFunctionExists.c.o -o cmTC_28846  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6d284/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_6d284.dir/build.make CMakeFiles/cmTC_6d284.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d284.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -o CMakeFiles/cmTC_6d284.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6d284
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d284.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_6d284.dir/CheckFunctionExists.c.o -o cmTC_6d284  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function LAPACKE_dgeqrf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ee045/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_ee045.dir/build.make CMakeFiles/cmTC_ee045.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee045.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -o CMakeFiles/cmTC_ee045.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ee045
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee045.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_ee045.dir/CheckFunctionExists.c.o -o cmTC_ee045  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ba81b/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_ba81b.dir/build.make CMakeFiles/cmTC_ba81b.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba81b.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -o CMakeFiles/cmTC_ba81b.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ba81b
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba81b.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_ba81b.dir/CheckFunctionExists.c.o -o cmTC_ba81b  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core /opt/ecrc/gcc/10.2.0/ub18/lib64/libgomp.so -ldl -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_885c6/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_885c6.dir/build.make CMakeFiles/cmTC_885c6.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_885c6.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -o CMakeFiles/cmTC_885c6.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_885c6
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_885c6.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_885c6.dir/CheckFunctionExists.c.o -o cmTC_885c6  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cblas_dscal exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fbebb/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_fbebb.dir/build.make CMakeFiles/cmTC_fbebb.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbebb.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -o CMakeFiles/cmTC_fbebb.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fbebb
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbebb.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_fbebb.dir/CheckFunctionExists.c.o -o cmTC_fbebb  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d1187/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_d1187.dir/build.make CMakeFiles/cmTC_d1187.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1187.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -o CMakeFiles/cmTC_d1187.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d1187
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1187.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_d1187.dir/CheckFunctionExists.c.o -o cmTC_d1187  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function LAPACKE_dgeqrf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_029e0/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_029e0.dir/build.make CMakeFiles/cmTC_029e0.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_029e0.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -o CMakeFiles/cmTC_029e0.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_029e0
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_029e0.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_029e0.dir/CheckFunctionExists.c.o -o cmTC_029e0  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b5e28/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_b5e28.dir/build.make CMakeFiles/cmTC_b5e28.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5e28.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -o CMakeFiles/cmTC_b5e28.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b5e28
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5e28.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_b5e28.dir/CheckFunctionExists.c.o -o cmTC_b5e28  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core /opt/ecrc/gcc/10.2.0/ub18/lib64/libgomp.so -ldl -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function sgemm_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_db842/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_db842.dir/build.make CMakeFiles/cmTC_db842.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db842.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -o CMakeFiles/cmTC_db842.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_db842
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db842.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=sgemm_ -m64 -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_db842.dir/CheckFunctionExists.c.o -o cmTC_db842  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cblas_dscal exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_495ad/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_495ad.dir/build.make CMakeFiles/cmTC_495ad.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_495ad.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -o CMakeFiles/cmTC_495ad.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_495ad
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_495ad.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cblas_dscal -fopenmp -L/opt/ecrc/cuda/11.4/lib64  -rdynamic CMakeFiles/cmTC_495ad.dir/CheckFunctionExists.c.o -o cmTC_495ad  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function cheev_ exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fee31/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_fee31.dir/build.make CMakeFiles/cmTC_fee31.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fee31.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -o CMakeFiles/cmTC_fee31.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fee31
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fee31.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=cheev_ -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_fee31.dir/CheckFunctionExists.c.o -o cmTC_fee31  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function LAPACKE_dgeqrf exists passed with the following output:
+Change Dir: /home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fdd28/fast && make[1]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+/usr/bin/make  -f CMakeFiles/cmTC_fdd28.dir/build.make CMakeFiles/cmTC_fdd28.dir/build
+make[2]: Entering directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fdd28.dir/CheckFunctionExists.c.o
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc   -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -o CMakeFiles/cmTC_fdd28.dir/CheckFunctionExists.c.o -c /opt/ecrc/cmake/3.21.2/ub18/share/cmake-3.21/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fdd28
+/opt/ecrc/cmake/3.21.2/ub18/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdd28.dir/link.txt --verbose=1
+/opt/ecrc/gcc/10.2.0/ub18/bin/gcc -fcommon -DCHECK_FUNCTION_EXISTS=LAPACKE_dgeqrf -fopenmp -L/opt/ecrc/cuda/11.4/lib64;-Wl,--no-as-needed  -rdynamic CMakeFiles/cmTC_fdd28.dir/CheckFunctionExists.c.o -o cmTC_fdd28  -Wl,--no-as-needed -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm 
+make[2]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory '/home/gengz/gpu-v2/exageostat/build/CMakeFiles/CMakeTmp'
+
+
+

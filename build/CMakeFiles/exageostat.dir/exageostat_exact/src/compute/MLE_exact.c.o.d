@@ -259,4 +259,5 @@ CMakeFiles/exageostat.dir/exageostat_exact/src/compute/MLE_exact.c.o: \
  /home/gengz/gpu-v2/exageostat/exageostat_exact/runtime/starpu/include/../../../../cudacore/include/../../misc/include/MLE_misc.h \
  /home/gengz/gpu-v2/exageostat/exageostat_exact/runtime/starpu/include/../../../../cudacore/include/../../misc/include/flat_file.h \
  /home/gengz/gpu-v2/exageostat/exageostat_exact/runtime/starpu/include/../../../../include/morse_starpu.h \
- /home/gengz/gpu-v2/exageostat/exageostat_exact/runtime/starpu/include/../../../../include/context.h
+ /home/gengz/gpu-v2/exageostat/exageostat_exact/runtime/starpu/include/../../../../include/context.h \
+ /home/gengz/gpu-v2/exageostat/exageostat_exact/src/compute/./print_fun.c

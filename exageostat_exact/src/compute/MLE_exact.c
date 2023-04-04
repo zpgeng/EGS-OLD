@@ -18,6 +18,7 @@
  *
  **/
 #include "../include/MLE_exact.h"
+#include "./print_fun.c"
 //***************************************************************************************
 void MORSE_MLE_dzvg_Tile (MLE_data *data,  double * Nrand, double * initial_theta, int n, int dts, int log)
     //! Generate Observations Vector (Z) for testing Maximum
@@ -106,47 +107,40 @@ void MORSE_MLE_dzvg_Tile (MLE_data *data,  double * Nrand, double * initial_thet
     MORSE_Sequence_Wait(msequence);
     STOP_TIMING(matrix_gen_time);
     VERBOSE(" Done.\n");
-                    MORSE_Sequence_Wait(msequence);
-    double sum=0;
-        double *C = (double *) malloc(n * n * sizeof(double));
-          MORSE_Tile_to_Lapack( data->descC, C, n);
-
-    int i=0;
-    for(i=0;i<n*n;i++)
-    	sum+=C[i];
-    printf("sum= %f\n", sum);
-    //exit(0);
-           print_dmatrix("testC", 16, 16, C, 16);
-    exit(0);
-
-    //print cov matrix
-//    double *C = (double *) malloc(n *n *sizeof(double));
-//    MORSE_Tile_to_Lapack( data->descC, C, n);
-//    print_dmatrix("testC", n, n, C, n);
-//    exit(0);
-
+    MORSE_Sequence_Wait(msequence);
+	Desc_fprintf(stdout, data->descC, 0, "C", 0, 5, 0, 5);
 
     //	 double *C = (double *) malloc(n * n * sizeof(double));
     //	 MORSE_Tile_to_Lapack( data->descC, C, n);
     //	 print_dmatrix("testC", n, n, C, n);
     //exit(0);
     //Copy Nrand to Z
-    VERBOSE("Generate Normal Random Distribution Vector Z (Synthetic Dataset Generation Phase) .....");
-    MORSE_MLE_dzcpy_Tile_Async(data->descZ, Nrand, msequence, mrequest);
-    VERBOSE(" Done.\n");
+    // VERBOSE("Generate Normal Random Distribution Vector Z (Synthetic Dataset Generation Phase) .....");
+    // MORSE_MLE_dzcpy_Tile_Async(data->descZ, Nrand, msequence, mrequest);
+    // VERBOSE(" Done.\n");
 
-    //Cholesky factorization for the Co-variance matrix C
-    VERBOSE("Cholesky factorization of Sigma (Synthetic Dataset Generation Phase) .....");
-    START_TIMING(time_facto);    
-    int success = MORSE_dpotrf_Tile(MorseLower, data->descC);
-    STOP_TIMING(time_facto);
-    flops = flops + FLOPS_DPOTRF(n);
-    SUCCESS(success, "Factorization cannot be performed..\n The matrix is not positive definite\n\n");
-    VERBOSE(" Done.\n");
+    // //Cholesky factorization for the Co-variance matrix C
+    // VERBOSE("Cholesky factorization of Sigma (Synthetic Dataset Generation Phase) .....");
+    // START_TIMING(time_facto);    
+    // int success = MORSE_dpotrf_Tile(MorseLower, data->descC);
+    // STOP_TIMING(time_facto);
+    // flops = flops + FLOPS_DPOTRF(n);
+    // SUCCESS(success, "Factorization cannot be performed..\n The matrix is not positive definite\n\n");
+    // VERBOSE(" Done.\n");
     //double *C = (double *) malloc(n * n * sizeof(double));
     //MORSE_Tile_to_Lapack( data->descC, C, n);
     //print_dmatrix("testC", 16, 16, C, 16);
     //exit(0);
+
+
+
+    //double *C = (double *) malloc(n * n * sizeof(double));
+    //MORSE_Tile_to_Lapack( data->descC, C, n);
+
+    //print_dmatrix("C", n, n, C, n);
+    printf(" ---- Matrix Generation Time: %lf\n", matrix_gen_time);
+	exit(0);
+
 
     //Triangular matrix-matrix multiplication    
     VERBOSE("Triangular matrix-matrix multiplication Z=L.e (Synthetic Dataset Generation Phase) .....");

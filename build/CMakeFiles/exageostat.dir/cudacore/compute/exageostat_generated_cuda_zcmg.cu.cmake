@@ -72,7 +72,7 @@ set(generated_file_internal "/home/gengz/gpu-v2/exageostat/build/CMakeFiles/exag
 set(generated_cubin_file_internal "/home/gengz/gpu-v2/exageostat/build/CMakeFiles/exageostat.dir/cudacore/compute/./exageostat_generated_cuda_zcmg.cu.cubin.txt") # path
 
 set(CUDA_NVCC_EXECUTABLE "/opt/ecrc/cuda/11.4/bin/nvcc") # path
-set(CUDA_NVCC_FLAGS  -gencode arch=compute_37,code=sm_37 ;; ) # list
+set(CUDA_NVCC_FLAGS  ;; ) # list
 # Build specific configuration flags
 set(CUDA_NVCC_FLAGS_DEBUG  ; )
 set(CUDA_NVCC_FLAGS_MINSIZEREL  ; )

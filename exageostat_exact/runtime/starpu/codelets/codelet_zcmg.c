@@ -18,6 +18,8 @@
  *
  **/
 #include "../include/starpu_exageostat.h"
+#include <gsl/gsl_sf_bessel.h>
+
 
 static void cl_dcmg_cpu_func(void *buffers[],void *cl_arg){
     int m, n, m0, n0;
@@ -53,6 +55,8 @@ static void cl_dcmg_cpu_func(void *buffers[],void *cl_arg){
         core_dcmg_nuggets(A, m, n, m0, n0, l1, l2, theta, distance_metric);
     else if (kernel == 5)
         core_dcmg_spacetime_matern(A, m, n, m0, n0, l1, l2, theta, distance_metric);
+	else if (kernel == 6)
+		core_dcmg_pow_exp(A, m, n, m0, n0, l1, l2, theta, distance_metric);
     //    else if (kernel == 4) //parsimonious2
     //        core_dcmg_bivariate_parsimonious2(A, m, n, m0, n0, l1, l2, theta, distance_metric);//, size);
 }
@@ -70,32 +74,55 @@ static void cl_dcmg_cuda_func(void *buffers[], void *cl_arg)
     double *theta;
     double *A;
     int distance_metric;
-    theta   = (double *) malloc(3* sizeof(double));
+    theta   = (double *) malloc(3 * sizeof(double));
     A       = (double *)STARPU_MATRIX_GET_PTR(buffers[0]);
 
-    //    starpu_codelet_unpack_args(cl_arg, &m, &n, &m0, &n0, &l1, &l2, &theta[0], &theta[1], &theta[2], &distance_metric);
-
-    starpu_codelet_unpack_args(cl_arg, &m, &n, &m0, &n0, &l1, &l2, &lm, &theta, &distance_metric, &kernel);//, &size);
-
-    printf("=========>%f, %f, %f\n", theta[0], theta[1], theta[2]);
+	__host__ double besselK(double nu, double x) {
+    return gsl_sf_bessel_Knu(nu, x);
+	}
+	// double tmp = besselK(3.5, 1.5);
+	// printf("------%lf------\n", tmp);
+	// exit(2022);
+	// TO-DO: Calculate besselK in host and memcpy to the device
+	// Comments from Zipei: Currently, it is the only feasible method unless
+	// we rebuilt the GSL within CUDA which is extremely time consuming.
+    starpu_codelet_unpack_args(cl_arg, &m, &n, &m0, &n0, &l1, &l2, &lm, &theta, &distance_metric, &kernel);
 
     cudaStream_t stream = starpu_cuda_get_local_stream();
-    // dcmg_array(A, m, n, m0, n0, l1, l2, theta, distance_metric);
-    dcmg_array(A, m, n, m0, n0, l1, l1, l2, l2, theta[0], theta[1], theta[2], distance_metric, stream);
+	
+	// Precise memory allocation and data copy	
+	double *d_l1_x, *d_l1_y, *d_l2_x, *d_l2_y;
+	cudaMalloc(&d_l1_x, m * sizeof(double));
+    cudaMalloc(&d_l1_y, m * sizeof(double));
+	cudaMalloc(&d_l2_x, n * sizeof(double));
+	cudaMalloc(&d_l2_y, n * sizeof(double));
 
+	// l1->x is the address of the whole vector,
+	// l1->x + m0 is the address of the m0-th element of the original vector.
+	cudaMemcpy(d_l1_x, l1->x + m0, m * sizeof(double), cudaMemcpyHostToDevice);
+	cudaMemcpy(d_l1_y, l1->y + m0, m * sizeof(double), cudaMemcpyHostToDevice);
+	cudaMemcpy(d_l2_x, l2->x + n0, n * sizeof(double), cudaMemcpyHostToDevice);
+	cudaMemcpy(d_l2_y, l2->y + n0, n * sizeof(double), cudaMemcpyHostToDevice);
+
+    dcmg_powexp(A, m, n, m0, n0, d_l1_x, d_l1_y, d_l2_x, d_l2_y, theta, distance_metric, stream);
+
+    #ifndef STARPU_CUDA_ASYNC
     cudaStreamSynchronize( stream );
+    #endif
 
+	return;
 }
 #endif
 
 
 static struct starpu_codelet cl_dcmg =
 {
-	.where        = STARPU_CPU /*| STARPU_CUDA*/,
+	.where        = /*STARPU_CPU |*/ STARPU_CUDA,
 	.cpu_func     = cl_dcmg_cpu_func,
 #if defined(EXAGEOSTAT_USE_CUDA)
 	.cuda_func      = {cl_dcmg_cuda_func},
 #endif
+	.cuda_flags   = {STARPU_CUDA_ASYNC},
 	.nbuffers     = 1,
 	.modes        = {STARPU_W},
 	.name         = "dcmg"
@@ -288,6 +315,9 @@ int MORSE_MLE_dcmg_Tile_Async(MORSE_enum uplo, MORSE_desc_t *descA, location *l1
 		kernel = 4;
 	else if(strcmp(kernel_fun, "univariate_spacetime_matern_stationary")   == 0)
 		kernel = 5;
+	// Start the Fred's implementation
+	else if(strcmp(kernel_fun, "univariate_power_exp_stationary")   == 0)
+		kernel = 6;
 	else
 	{
 		fprintf(stderr,"Choosen kernel is not exist: %s!\n", kernel_fun);

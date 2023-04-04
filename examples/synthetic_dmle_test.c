@@ -77,11 +77,17 @@ int main(int argc, char **argv) {
 		num_params      = 6;
 		p               = 2;
 	}
-        else if(strcmp(arguments.kernel_fun, "univariate_spacetime_matern_stationary")   == 0)
-        {
-                num_params = 7;
-                p          = 1;
-        }
+    else if(strcmp(arguments.kernel_fun, "univariate_spacetime_matern_stationary")   == 0)
+    {
+        num_params = 7;
+        p          = 1;
+    }
+	// Start the Fred's implementation
+	else if(strcmp(arguments.kernel_fun, "univariate_power_exp_stationary")   == 0)
+	{
+		num_params    = 3;
+		p             = 1;
+	}
 	else
 	{
 		fprintf(stderr,"Choosen kernel is not exist(20)!\n");
